@@ -16,7 +16,7 @@ def main():
             kt = pilihKata()
             bot.update_status(kt.upper())
             print("bot selesai mentweet "+kt)
-            time.sleep(2)
+            time.sleep(180)
         except tweepy.TweepError:
             continue
 
